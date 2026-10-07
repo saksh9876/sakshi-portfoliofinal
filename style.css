@@ -1629,3 +1629,17 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+/* MOBILE NAVBAR LOGO FIX */
+
+@media (max-width: 768px) {
+    .logo h1 {
+        font-size: 26px;
+        line-height: 1;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .logo h1 span {
+        display: inline;
+    }
+}
